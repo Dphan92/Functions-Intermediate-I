@@ -29,7 +29,7 @@ students = [
 {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
 
-#2 Iterate Through a List of Dictionaries
+#2 Iterate Through a List of Dictionaries. This function loops  through each dictionary entry and returns each key and value
 def interateDictionary(some_list: list):
     for i in some_list:
         if i:
@@ -39,7 +39,7 @@ def interateDictionary(some_list: list):
             print(s)
 interateDictionary(students)
 
-#3 Get Values From a List of Dictionaries
+#3 Get Values From a List of Dictionaries. This function prints the value stored for a particular key in a dictionary
 
 def iterateDictionary2(key_name, some_list):
     for a in some_list:
@@ -48,7 +48,7 @@ def iterateDictionary2(key_name, some_list):
 iterateDictionary2('first_name', students)
 iterateDictionary2('last_name', students)
 
-#4 Iterate Through a Dictionary with List Values
+#4 Iterate Through a Dictionary with List Values. This function prints the name of each key along with the size of the list within a dictionary and the values under that list.
 dojo = {
 'locations': ['San Jose', 'Seattle', 'Dallas', 'Chicago', 'Tulsa', 'DC', 'Burbank'],
 'instructors': ['Michael', 'Amy', 'Eduardo', 'Josh', 'Graham', 'Patrick', 'Minh', 'Devon']
